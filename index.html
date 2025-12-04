@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/svg/logo.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+
+    <!-- navigation menu -->
+    <nav>
+      <div class="nav-container">
+          <div class="logo"  data-aos="zoom-in" data-aos-duration="1100">
+            Michael-Alexander <span>Arambula</span>
+          </div>
+          <div class="links">
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="100"><a href="#">Home</a></div>
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="200"><a href="#">About</a></div>
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300" ><a href="#">Skills</a></div>
+              <div class="link" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="500" ><a href="#">Contact</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+  </div>
+      <div class="dropdown">
+          <div class="links">
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Skills</a>
+              <a href="#">Contact</a>
+              <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+          </div>
+      </div>
+  </nav>
+  <section>
+      <div class="main-container">
+          <div class="image"  data-aos="zoom-in" data-aos-duration="2500">
+              <img src="./assets/Images/Main.jpg" alt="">
+          </div>
+          <div class="content">
+              <h1 data-aos="fade-left" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="700" >Hey I'm <span>Michael-Alexander</span></h1>
+              <div class="typewriter"  data-aos="fade-right" data-aos-duration="1100" data-aos-delay="900" >I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+              <p data-aos="flip-up" data-aos-duration="1100" data-aos-delay="1100" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit quasi commodi quia rerum, iste corporis expedita in excepturi nesciunt repellendus quisquam amet provident ad mollitia debitis odit voluptatem necessitatibus tempora.</p>
+              <div class="social-links">
+                  <a href="#" data-aos="zoom-out" data-aos-duration="1100" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"  data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"  data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#"  data-aos="fade-up" data-aos-duration="1100" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+              <div class="btn"  data-aos="zoom-in-left" data-aos-duration="1100" data-aos-delay="1700" >
+                  <button>Hire me</button>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- About Section Start -->
+
+  <section class="about" id="about">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <img src="./assets/svg/logo.svg" alt="" />
+          </div>
+          <div class="right" >
+            <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">Designing Is My Passion</div>
+            <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="400">
+              Hello! My name is Michael-Alexander Arambula. I am a senior year student at San Jacinto College: South Campus. I am a graphic designer and am currently
+              learning to be a web page designer and video editor. I hope to one day work at a marketing firm to help other people and businesses with their marketing,
+              branding, and advertising needs.
+            <div class="button" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+              <button>Download CV</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- My Skill Section Start -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">Skills Reflects Our Knowledge</div>
+            <p data-aos="flip-down" data-aos-duration="1100" data-aos-delay="200">These percentages express my proficiency in the tools that I have experience in using for my work.</p>
+            <div class="experience" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="300">
+              <div class="num">3</div>
+              <div class="exp">
+                Years of<br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="400">
+              <div class="topic" >HTML</div>
+              <div class="per" >95%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="500">
+              <div class="topic">CSS</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="600">
+              <div class="topic">JavScript</div>
+              <div class="per" >40%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="700">
+              <div class="topic">Illustrator</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay="800">
+              <div class="topic">InDesign</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box" data-aos="zoom-in" data-aos-duration="1100" data-aos-delay=900">
+              <div class="topic">Premiere Pro</div>
+              <div class="per">90%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Project Cards-->
+   <section class="project" id="project">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>Projects</span></div>
+        <div class="about-details">
+          <div class="left" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="100">
+            <img src="main.jpg" alt="" />
+          </div>
+          <div class="right" >
+            <div class="topic" data-aos="fade-left" data-aos-duration="1100" data-aos-delay="200">My Past Works</div>
+            <p data-aos="fade-right" data-aos-duration="1100" data-aos-delay="400">
+              Here is a little gallery of some of my works I have done for college assignments. Hover you mouse cursor over a work piece to learn a bit about it.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-row">
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./assets/Images/Movie_Poster_Redesign.jpg" alt="Avatar 1">
+      </div>
+      <div class="flip-card-back">
+        <h1>Redesigned Movie Poster</h1>
+        <p>For this assignment, the goal was to put a creative spin on what we thought were boring movie posters.</p>
+        <p>I was inspired by <em>The Great Wave off Kanagawa</em> and went for a cel shaded look.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./assets/Images/Found_Letter.jpg" alt="Avatar 2">
+      </div>
+      <div class="flip-card-back">
+        <h1>Found Letter Photography</h1>
+        <p>This is a found letter photography that I created for my Typography class.</p>
+        <p>Found letter photography is finding abstract letters in everyday objects/nature, and photographing them to create a collection.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="./assets/Images/Boots.jpg" alt="Avatar 3">
+      </div>
+      <div class="flip-card-back">
+        <h1>Music Festival Poster</h1>
+        <p>For this assignment, we were tasked with creating an original poster for a music festival.</p>
+        <p>I decided to create a poster for a country music show. I based the design of the poster on a stick of Old Spice deodorant.</p>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1100"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="200">Need my Services?</div>
+          <p data-aos="fade-left" data-aos-duration="1100" data-aos-delay="400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
+          <div class="button"  data-aos="fade-up" data-aos-duration="1100" data-aos-delay="600">
+            <a href="mailto:michaelarambula91@gmail.com" class="email-button">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer >
+      <div class="text">
+        <span>Created By <a href="#">Michael-Alexander Arambula</a> | &#169; 2025 All Rights Reserved</span>
+      </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+  </body>
+</html> 
